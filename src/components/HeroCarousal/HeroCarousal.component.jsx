@@ -7,8 +7,18 @@ import "slick-carousel/slick/slick-theme.css";
 
 const HeroCarousal = () => {
 
+    const settingsLG = {
+        arrows: true,
+        autoplay: true,
+        centerMode: true,
+        centerPadding ="300px",
+        slideToshow: 1,
+        infinite: true,
+        slidesToScroll: 1,
+    }
+
     const settings = {
-        arroes: true,
+        arrows: true,
         centerMode: true,
         centerPadding:"160px",
         dots: true,
